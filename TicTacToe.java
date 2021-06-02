@@ -80,7 +80,7 @@ public class TicTacToe extends Application {
 		gridpane.setAlignment(Pos.CENTER);
 		  
 		// to create the scene
-		Scene scene = new Scene(gridpane, 400, 450);
+		Scene scene = new Scene(gridpane, 600, 600);
 		  
 		// to add the scene to the stage.
 		primaryStage.setScene(scene);
@@ -93,14 +93,14 @@ public class TicTacToe extends Application {
 		
 	    // to open the image of x buttons from file, set the width and preserve
 		// the ratio. To create an object of xImageView
-		xImage = new Image("file:Images//X.png");
+		xImage = new Image("file:X_Purple.png");
 	    xImageView = new ImageView(xImage);
         xImageView.setFitWidth(60);
         xImageView.setPreserveRatio(false);
         
 	    // to open the image of o buttons from file, set the width and preserve
 		// the ratio. To create an object of oImageView
-        oImage = new Image("file:Images//O.png");
+        oImage = new Image("file:O_Purple.png");
 	    oImageView = new ImageView(oImage);
         oImageView.setFitWidth(60);
         oImageView.setPreserveRatio(false);
